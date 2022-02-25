@@ -13,8 +13,8 @@ docs_dir: docs
 site_dir: '../docs/fr'
 
 site_name: Joomla!™ developer documentation
-site_url: https://weeblr.github.io/jdevdocs/
-repo_url: https://github.com/weeblr/jdevdocs
+site_url: https://joomla-projects.github.io/developer-documentation
+repo_url: https://github.com/joomla-projects/developer-documentation
 repo_name: Joomla! developer documentation
 edit_uri: ""
 
@@ -43,10 +43,10 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /jdevdocs/en/
+      link: /developer-documentation/en/
       lang: en
 #    - name: French
-#      link: /jdevdocs/fr/
+#      link: /developer-documentation/fr/
 #      lang: fr
 
 extra_css:
