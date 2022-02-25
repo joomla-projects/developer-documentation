@@ -1,2 +1,2 @@
-# The official Joomla! developper documentation.
+# The official Joomla! developer documentation.
 
