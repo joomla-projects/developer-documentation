@@ -1,0 +1,205 @@
+{#-
+This file was automatically generated - do not edit
+-#}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+{% set class = class ~ " md-header--lifted" %}
+{% endif %}
+<header class="{{ class }}" data-md-component="header">
+
+    <div id="top-nav" class="fixed">
+        <nav id="topnav" class="top-bar top row">
+            <ul class="title-area">
+                <li class="name logo">
+                    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}">
+                        <img aria-hidden="true" alt="Joomla! developer Documentation home" src="{{ base_url }}/_images/joomla_assets/joomla_logo_small.png"></a>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span> </span></a>
+                </li>
+            </ul>
+
+
+            <section class="top-bar-section">
+
+                <ul id="top-bar-left" class="left">
+                    <li class="has-dropdown active" id="p-sidebar-Joomla">
+                        <a href="#">Joomla!</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+                            <li id="n-sidebar-Main" class=""><a href="https://www.joomla.org"><i
+                                    class="fa fa-joomla 2x-fa icon"></i>Joomla! Home</a></li>
+                            <li id="n-sidebar-What" class=""><a href="https://www.joomla.org/about-joomla.html">What is
+                                Joomla?</a></li>
+                            <li id="n-sidebar-Benefits"><a href="https://www.joomla.org/core-features.html">Benefits
+                                &amp; Features</a></li>
+                            <li id="n-sidebar-Leadership"><a
+                                    href="https://www.joomla.org/about-joomla/the-project.html">Project &amp;
+                                Leadership</a></li>
+                            <li id="n-sidebar-Trademark"><a href="https://tm.joomla.org">Trademark &amp; Licensing</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li id="label"><label>Support Joomla!</label></li>
+                            <li id="n-sidebar-Contribute"><a href="https://www.joomla.org/contribute-to-joomla.html">Contribute</a>
+                            </li>
+                            <li id="n-sidebar-Sponsorship"><a href="https://www.joomla.org/sponsor.html">Sponsor</a>
+                            </li>
+                            <li id="n-sidebar-Partner"><a href="https://www.joomla.org/about-joomla/partners.html">Partner</a>
+                            </li>
+                            <li id="n-sidebar-Shop"><a href="https://shop.joomla.org/">Shop</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown active" id="p-sidebar-Extend">
+                        <a href="#">Download &amp; Extend</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+                            <li id="n-sidebar-JoomlaCode"><a href="https://downloads.joomla.org/">Downloads</a></li>
+                            <li id="n-sidebar-Extensions"><a href="https://extensions.joomla.org/">Extensions</a></li>
+                            <li id="n-sidebar-Translations"><a href="https://community.joomla.org/translations.html">Languages</a>
+                            </li>
+                            <li id="n-sidebar-Free-Hosted"><a href="https://launch.joomla.org">Get a free site</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown active" id="p-sidebar-About">
+                        <a href="#">Discover &amp; Learn</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+                            <li id="n-sidebar-Docs"><a href="https://docs.joomla.org">Documentation</a></li>
+                            <li id="n-sidebar-Training"><a href="https://training.joomla.org">Training</a></li>
+                            <li id="n-sidebar-Certification"><a
+                                    href="https://certification.joomla.org/">Certification</a></li>
+                            <li id="n-sidebar-Showcase"><a href="https://showcase.joomla.org/">Site Showcase</a></li>
+                            <li id="n-sidebar-Announcements"><a href="https://www.joomla.org/announcements.html">Announcements</a>
+                            </li>
+                            <li id="n-sidebar-Blogs"><a href="https://community.joomla.org/blogs.html">Blogs</a></li>
+                            <li id="n-sidebar-Magazine"><a href="https://magazine.joomla.org/">Magazine</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown active" id="p-sidebar-News">
+                        <a href="#">Community &amp; Support</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+                            <li id="n-sidebar-Community"><a href="https://community.joomla.org/">Community Portal</a>
+                            </li>
+                            <li id="n-sidebar-Events"><a href="https://events.joomla.org/">Events</a></li>
+                            <li id="n-sidebar-JUGs"><a href="https://community.joomla.org/user-groups.html">User
+                                Groups</a></li>
+                            <li id="n-sidebar-Forum"><a href="https://forum.joomla.org/">Forum</a></li>
+                            <li id="n-sidebar-Resources"><a href="https://resources.joomla.org/">Resources Directory</a>
+                            </li>
+                            <li id="n-sidebar-Volunteers"><a href="https://volunteers.joomla.org/">Volunteers Portal</a>
+                            </li>
+                            <li id="n-sidebar-Vel"><a href="https://vel.joomla.org">Vulnerable Extensions List</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown active" id="p-sidebar-Developers">
+                        <a href="#">Developer Resources</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+                            <li id="n-sidebar-Developers"><a href="https://developer.joomla.org/">Developer Network</a>
+                            </li>
+                            <li id="n-sidebar-Security"><a href="https://developer.joomla.org/security-centre.html">Security
+                                Centre</a></li>
+                            <li id="n-sidebar-Issues"><a href="https://issues.joomla.org/">Issue Tracker</a></li>
+                            <li id="n-sidebar-Github"><a href="https://github.com/joomla">GitHub</a></li>
+                            <li id="n-sidebar-API"><a href="https://api.joomla.org/">API Documentation</a></li>
+                            <li id="n-sidebar-Framework"><a href="https://framework.joomla.org/">Joomla! Framework</a>
+                            </li>
+                            <li id="n-sidebar-JoomlaCode"><a href="http://joomlacode.org/">JoomlaCode</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+
+    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header.title') }}">
+        <a
+                href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+                title="{{ config.site_name | e }}"
+                class="md-header__button md-logo"
+                aria-label="{{ config.site_name }}"
+                data-md-component="logo"
+        >
+            <!--            {% include "partials/logo.html" %}-->
+        </a>
+        <label class="md-header__button md-icon" for="__drawer">
+            {% include ".icons/material/menu" ~ ".svg" %}
+        </label>
+        <div class="md-header__title" data-md-component="header-title">
+            <div class="md-header__ellipsis">
+                <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+                </div>
+                <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page and page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+                </div>
+            </div>
+        </div>
+        {% if not config.theme.palette is mapping %}
+        <form class="md-header__option" data-md-component="palette">
+            {% for option in config.theme.palette %}
+            {% set primary = option.primary | replace(" ", "-") | lower %}
+            {% set accent = option.accent | replace(" ", "-") | lower %}
+            <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ option.scheme }}"
+                   data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}" {% if option.toggle %}
+                   aria-label="{{ option.toggle.name }}" {% else %} aria-hidden="true" {% endif %} type="radio"
+                   name="__palette" id="__palette_{{ loop.index }}">
+            {% if option.toggle %}
+            <label class="md-header__button md-icon" title="{{ option.toggle.name }}"
+                   for="__palette_{{ loop.index0 or loop.length }}" hidden>
+                {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
+            </label>
+            {% endif %}
+            {% endfor %}
+        </form>
+        {% endif %}
+        {% if config.extra.alternate %}
+        <div class="md-header__option">
+            <div class="md-select">
+                {% set icon = config.theme.icon.alternate or "material/translate" %}
+                <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language.title') }}">
+                    {% include ".icons/" ~ icon ~ ".svg" %}
+                </button>
+                <div class="md-select__inner">
+                    <ul class="md-select__list">
+                        {% for alt in config.extra.alternate %}
+                        <li class="md-select__item">
+                            <a href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" class="md-select__link">
+                                {{ alt.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if "search" in config["plugins"] %}
+        <label class="md-header__button md-icon" for="__search">
+            {% include ".icons/material/magnify.svg" %}
+        </label>
+        {% include "partials/search.html" %}
+        {% endif %}
+        {% if config.repo_url %}
+        <div class="md-header__source">
+            {% include "partials/source.html" %}
+        </div>
+        {% endif %}
+    </nav>
+    {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+    {% include "partials/tabs.html" %}
+    {% endif %}
+    {% endif %}
+</header>
