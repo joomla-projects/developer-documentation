@@ -21,7 +21,8 @@ jobs:
           mkdocs build -f default/mkdocs.yml
           mkdocs build -f en/mkdocs.yml
           mkdocs build -f fr/mkdocs.yml
-      - uses: JamesIves/github-pages-deploy-action@4.1.8
+          touch docs/.nojekyll
+      - uses: JamesIves/github-pages-deploy-action@4.2.5
         with:
           branch: gh-pages
           folder: docs
