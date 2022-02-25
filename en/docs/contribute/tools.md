@@ -20,7 +20,7 @@ New content, or changes to existing content is done in the same way code is modi
 
 ## Tools and Requirements
 
-!!! info "The only thing absolutely required to make contribute to the documentation project is a [Github account](https://github.com/)."
+!!! info "The only thing absolutely required to contribute to the documentation project is a [Github account](https://github.com/)."
 
 - You can make simple changes directly on the Github.com website, after forking the documentation repository.
 
@@ -30,10 +30,10 @@ New content, or changes to existing content is done in the same way code is modi
 
 ## Building and publishing
 
-Once your proposed changes have been submitted through a **Pull Request**, an administrator will review them and, if accepted, merge them into the `main` branch. This process of building and publishing the updated documentation is automated using:
+Once your proposed changes have been submitted through a **Pull Request**, an administrator will review them and, if accepted, merge them into the `default` branch. This process of building and publishing the updated documentation is automated using:
 
 - *Github actions* for the build process: see `/.github/workflows/ci.yml` for configuration.
 - *Mkdocs Material* configuration file located at `mkdocs.yml`, per language.
 
 ??? danger "Unless you are an administrator of this project, only change documentation content, located inside of the `/<language code>/docs` directory."
-    Content in other directories is for building the documentation and publishing it automatically, it should not be modified unless by administrators. Pull Request attempting to change content outside of `/<language code>/docs` will likely not be accepted. 
+    Content in other directories is for building the documentation and publishing it automatically, it should not be modified unless by administrators. Pull Requests attempting to change content outside of `/<language code>/docs` will likely not be accepted. 
