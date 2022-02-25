@@ -11,14 +11,14 @@ This page is centered around developing on and with Joomla. If you find yourself
 Installing a typical web server environment is very easy with following AMP-packages (Apache, MySQL, PHP).
 
 ### [XAMPP (Multiple OS)](http://www.apachefriends.org/en/xampp.html)
-  - [XAMPP](https://docs.joomla.org/XAMPP) (for Joomla 1.5 and 2.5 please view XAMPP for Joomla 2.5)
+  - [XAMPP](https://docs.joomla.org/XAMPP)
 ### LAMP (Linux)
   - Configuring a LAMPP server for PHP development
-### WAMP (Windows),. A good choice for for a local server environment for windows is WampServer.
+### WAMP (Windows),. A good choice for a local server environment for windows is WampServer.
 ### MAMP (Macintosh / OS X) MAMP by living-e AG may be a good choice.
 ### Bitnami also offer a Joomla stack that you can install locally or on a remote server
 
-If you want use XDebug for debugging, you'll need to tune php settings
+If you want to use XDebug for debugging, you'll need to tune the php settings.
 
 - Edit PHP.INI File for XDebug
 
@@ -48,7 +48,7 @@ How to debug your code
 
 ## Using Git
 
-The CMS project uses the Git version control system and the CMS repository is stored on Github here: https://github.com/joomla/joomla-cms. Bugs are fixed in the master branch of this repository, and normally there are bug fixes and changes in the master branch that are more recent than the latest released Joomla version. For this reason, when we test and code bug fixes, we normally use the latest code from the master branch on Github, not the latest released version. Therefore, Bug Squad testers and coders need to understand how to use Git and the Github repository.
+The CMS project uses the Git version control system and the CMS repository is stored on Github here: https://github.com/joomla/joomla-cms. Bugs are fixed in the default branch of this repository, and normally there are bug fixes and changes in the default branch that are more recent than the latest released Joomla version. For this reason, when we test and code bug fixes, we normally use the latest code from the default branch on Github, not the latest released version. Therefore, Bug Squad testers and coders need to understand how to use Git and the Github repository.
 
 For testing and tracking changes, please refer to Git for Testers and Trackers.
 For creating your first code change (called a Pull Request) please see Working with git and github/My first pull request
