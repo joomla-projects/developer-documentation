@@ -1,0 +1,27 @@
+name: ci
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    if: github.event.repository.fork == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: |
+          apt-get update && apt-get install -y --no-install-recommends pngquant
+          find default/docs/_images -name '*.png' -exec pngquant --ext .png --force 256 {} \;
+          find en/docs/_images -name '*.png' -exec pngquant --ext .png --force 256 {} \;
+          find fr/docs/_images -name '*.png' -exec pngquant --ext .png --force 256 {} \;
+          pip install mkdocs-material 
+          mkdocs build -f default/mkdocs.yml
+          mkdocs build -f en/mkdocs.yml
+          mkdocs build -f fr/mkdocs.yml
+      - uses: JamesIves/github-pages-deploy-action@4.1.8
+        with:
+          branch: gh-pages
+          folder: docs

@@ -1,0 +1,125 @@
+/******************************************
+ * Joomla colors
+ */
+
+:root {
+    --md-primary-fg-color: #0e1e36;
+    --md-primary-fg-color--light: #0e1e36;
+    --md-primary-fg-color--dark: #90030C;
+}
+
+
+/******************************************
+ * Joomla header
+ */
+.md-header {
+    background: #1b63a2;
+}
+
+#top-nav {
+    display: none;
+    position: fixed;
+}
+
+ul.title-area {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li.logo img {
+    max-width: 4rem;
+    height: auto;
+    max-height: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/******************************************
+ *
+ * Joomla footer
+ */
+
+.md-footer {
+    background: #1b63a2;
+}
+
+.md-footer nav a {
+    color: #FFFFFF;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.md-footer nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.md-footer-meta.md-typeset {
+    color: white;
+    background: #0e1e36;
+}
+
+.md-footer-meta.md-typeset .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 14px;
+}
+
+.md-footer-meta.md-typeset ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.md-footer-meta.md-typeset ul {
+    margin-left: 0;
+}
+
+.md-footer-meta.md-typeset ul li {
+    margin: 0 0.5rem;
+}
+
+html .md-footer-meta.md-typeset {
+    color: #ccc;
+}
+
+html .md-footer-meta.md-typeset a {
+    color: #ffffff;
+}
+
+.md-footer-meta.md-typeset a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.md-footer-meta.md-typeset .social ul {
+    justify-content: center;
+}
+
+html .md-footer-meta.md-typeset a svg {
+    fill: #1b63a2;
+    border-radius: 0.15rem;
+    width: 1.1rem;
+}
+
+html .md-footer-meta.md-typeset a:hover svg {
+    fill: #FFFFFF;
+}
+
+.md-footer-meta .element-invisible {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 0;
+}
+
