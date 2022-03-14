@@ -15,6 +15,14 @@ Essentially, the documentation is made of simple text files in the Markdown form
 New content, or changes to existing content is done in the same way code is modified:
 
 - **fork** this repository
+- clone this repo to your machine as remote `origin`: `git clone https://github.com/joomla-projects/developer-documentation.git`
+- move to the newly created folder developer-documentation: `cd developer-documentation/`
+- add your fork as remote: `git add remote CHOOSEAREMOTENAME https://github.com/YOURGITHUBACCOUT/developer-documentation.git`
+- install `pip install mkdocs`. See https://www.mkdocs.org/getting-started/ 
+- install mkdocs-material: `pip install mkdocs-material`. See https://mrkeo.github.io/getting-started/.
+- change to the developer-documentation folder: `cd en/`
+- run the build command `mkdocs build`
+- view the current documentation via `mkdocs serve` and opening the URL http://127.0.0.1:8000/developer-documentation/ in a browser.
 - make changes / add content in your fork
 - submit a **Pull Request** to this repo. 
 
