@@ -13,7 +13,7 @@ Installing a typical web server environment is very easy with following AMP-pack
 ### [XAMPP (Multiple OS)](http://www.apachefriends.org/en/xampp.html)
   - [XAMPP](https://docs.joomla.org/XAMPP) (for Joomla 1.5 and 2.5 please view XAMPP for Joomla 2.5)
 ### LAMP (Linux)
-  - Configuring a LAMPP server for PHP development
+  - Configuring a [LAMPP](https://docs.joomla.org/Configuring_a_LAMPP_server_for_PHP_development) server for PHP development
 ### WAMP (Windows),. A good choice for for a local server environment for windows is WampServer.
 ### MAMP (Macintosh / OS X) MAMP by living-e AG may be a good choice.
 ### Bitnami also offer a Joomla stack that you can install locally or on a remote server
